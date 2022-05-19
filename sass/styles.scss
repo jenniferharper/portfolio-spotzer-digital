@@ -70,13 +70,7 @@ a, p, li{
   }
 }
 
-a{
-  text-decoration: none;
-  a:hover{
-    color:$dark;
-    text-decoration: none;
-  }
-}
+
 
 
 p, p span,p a,a{  color:$dark;}
@@ -138,6 +132,14 @@ figure {
   z-index: 1;
   width: 100%;
   position: relative;
+  a{
+    text-decoration:none;
+    svg{
+      .text{
+        text-decoration: none;
+      }
+    }
+  }
   svg{
     width: 100%;
     z-index: 1;
@@ -478,6 +480,13 @@ button:focus {
       max-width: 700px;
       margin: 20px auto;
     }
+    a{
+     &:hover{
+        color:$secondary-dark;
+
+      }
+    }
+    
   }
 
   &.no-pad-btm{
@@ -641,6 +650,7 @@ footer{
           }
         }
       }
+      a{text-decoration: none;}
       a:hover{
         color:$secondary-dark;
       }
