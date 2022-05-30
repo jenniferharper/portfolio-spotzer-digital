@@ -477,7 +477,7 @@ button:focus {
       }
     }
     p{
-      max-width: 700px;
+      max-width: 800px;
       margin: 20px auto;
     }
     a{
@@ -665,4 +665,9 @@ footer{
     }
   }
 
+}
+
+img.logo-text{
+  max-width: 200px;
+  margin: 0 auto 20px;
 }

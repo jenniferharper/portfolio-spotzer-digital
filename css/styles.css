@@ -377,7 +377,7 @@ button:focus {
       letter-spacing: 1px;
       font-size: 6vw; }
   .intro-heading .row p {
-    max-width: 700px;
+    max-width: 800px;
     margin: 20px auto; }
   .intro-heading .row a:hover {
     color: #c52800; }
@@ -503,5 +503,9 @@ footer {
           display: flex;
           align-items: center;
           justify-content: center; } }
+
+img.logo-text {
+  max-width: 200px;
+  margin: 0 auto 20px; }
 
 /*# sourceMappingURL=styles.css.map */
